@@ -17,9 +17,33 @@ body {
 }
 
 h1 {
-    font-size: 36;
+    font-size: 80px;
     margin-top: 10px;
     margin-bottom: 25px;
+    font-family: cursive;
+    animation: cycle-colors 5s infinite alternate;
+}
+
+@keyframes cycle-colors {
+    0% {
+        color: rgb(248, 18, 18);
+    }
+
+    25% {
+        color: beige;
+    }
+
+    50% {
+        color: darkseagreen;
+    }
+
+    75% {
+        color: rgb(5, 177, 5);
+    }
+
+    100% {
+        color: blue;
+    }
 }
 
 ul li {
@@ -30,13 +54,16 @@ ul li {
     padding: 5px;
     background-color: transparent;
     width: fit-content;
+    padding-bottom: 20px;
+    font-weight: 900;
 }
 
 .links {
-    border: 2px solid black;
+    border: 5px solid black;
     display: inline-block;
     padding: 10px;
     background-color: rgba(255, 0, 255, 0.178);
+    border-radius: 10px;
 }
 
 a {
