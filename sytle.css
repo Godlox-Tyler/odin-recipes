@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: rgb(119, 60, 167);
+    background-color: rgb(191, 154, 172);
 }
 
 h1 {
@@ -30,19 +30,19 @@ h1 {
     }
 
     25% {
-        color: beige;
+        color: rgb(201, 35, 35);
     }
 
     50% {
-        color: darkseagreen;
+        color: rgb(165, 46, 46);
     }
 
     75% {
-        color: rgb(5, 177, 5);
+        color: rgb(120, 46, 46);
     }
 
     100% {
-        color: blue;
+        color: rgb(72, 36, 36);
     }
 }
 
@@ -58,17 +58,37 @@ ul li {
     font-weight: 900;
 }
 
+.desc-container {
+    display: flex;
+    border: 3px solid black;
+    border-radius: 6px;
+    margin:0 auto 35px;
+    max-width: 800px;
+    padding: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.426);
+    background-color: rgba(163, 123, 105, 0.694); 
+}
+
+.desc {
+    font-size: large;
+}
+
 .links {
     border: 5px solid black;
-    display: inline-block;
+    display: flex;
     padding: 10px;
-    background-color: rgba(255, 0, 255, 0.178);
+    background-color: rgb(163, 123, 105);
     border-radius: 10px;
+    flex-direction:column;
+    max-width: fit-content;
+    margin:auto;
 }
 
 a {
     text-decoration: none;
-    color: black;    
+    color: black;
+    font-size: x-large;    
+    text-shadow: 2px 2px 5px black;
 }
 
 .dip a {
